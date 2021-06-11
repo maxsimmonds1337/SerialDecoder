@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Repos\FPGA\SerialDecoder\TX.ncd
+OUTFILE=D:\Repos\FPGA\SerialDecoder\TX.bit
+FAMILY=Spartan-3A DSP
+PART=xc3sd1800a-4fg676
+WORKINGDIR=D:\Repos\FPGA\SerialDecoder
+LICENSE=WebPack
+USER_INFO=211944931_0_0_245

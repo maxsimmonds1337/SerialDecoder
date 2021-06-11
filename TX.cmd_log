@@ -1,0 +1,139 @@
+xst -intstyle ise -ifn "D:/Repos/FPGA/SerialDecoder/TX.xst" -ofn "D:/Repos/FPGA/SerialDecoder/TX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc3sd1800a-fg676-4 TX.ngc TX.ngd  
+xst -intstyle ise -ifn "D:/Repos/FPGA/SerialDecoder/TX.xst" -ofn "D:/Repos/FPGA/SerialDecoder/TX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc3sd1800a-fg676-4 TX.ngc TX.ngd  
+map -intstyle ise -p xc3sd1800a-fg676-4 -cm area -ir off -pr off -c 100 -o TX_map.ncd TX.ngd TX.pcf 
+par -w -intstyle ise -ol high -t 1 TX_map.ncd TX.ncd TX.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TX.twx TX.ncd -o TX.twr TX.pcf -ucf top.ucf 
+bitgen -intstyle ise -f TX.ut TX.ncd 
+xst -intstyle ise -ifn "D:/Repos/FPGA/SerialDecoder/TX.xst" -ofn "D:/Repos/FPGA/SerialDecoder/TX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc3sd1800a-fg676-4 TX.ngc TX.ngd  
+map -intstyle ise -p xc3sd1800a-fg676-4 -cm area -ir off -pr off -c 100 -o TX_map.ncd TX.ngd TX.pcf 
+par -w -intstyle ise -ol high -t 1 TX_map.ncd TX.ncd TX.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TX.twx TX.ncd -o TX.twr TX.pcf -ucf top.ucf 
+bitgen -intstyle ise -f TX.ut TX.ncd 
+xst -intstyle ise -ifn "D:/Repos/FPGA/SerialDecoder/TX.xst" -ofn "D:/Repos/FPGA/SerialDecoder/TX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc3sd1800a-fg676-4 TX.ngc TX.ngd  
+map -intstyle ise -p xc3sd1800a-fg676-4 -cm area -ir off -pr off -c 100 -o TX_map.ncd TX.ngd TX.pcf 
+par -w -intstyle ise -ol high -t 1 TX_map.ncd TX.ncd TX.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TX.twx TX.ncd -o TX.twr TX.pcf -ucf top.ucf 
+bitgen -intstyle ise -f TX.ut TX.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc3sd1800a-fg676-4 TX.ngc TX.ngd  
+map -intstyle ise -p xc3sd1800a-fg676-4 -cm area -ir off -pr off -c 100 -o TX_map.ncd TX.ngd TX.pcf 
+par -w -intstyle ise -ol high -t 1 TX_map.ncd TX.ncd TX.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TX.twx TX.ncd -o TX.twr TX.pcf -ucf top.ucf 
+bitgen -intstyle ise -f TX.ut TX.ncd 
+xst -intstyle ise -ifn "D:/Repos/FPGA/SerialDecoder/TX.xst" -ofn "D:/Repos/FPGA/SerialDecoder/TX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc3sd1800a-fg676-4 TX.ngc TX.ngd  
+map -intstyle ise -p xc3sd1800a-fg676-4 -cm area -ir off -pr off -c 100 -o TX_map.ncd TX.ngd TX.pcf 
+par -w -intstyle ise -ol high -t 1 TX_map.ncd TX.ncd TX.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TX.twx TX.ncd -o TX.twr TX.pcf -ucf top.ucf 
+bitgen -intstyle ise -f TX.ut TX.ncd 
+xst -intstyle ise -ifn "D:/Repos/FPGA/SerialDecoder/TX.xst" -ofn "D:/Repos/FPGA/SerialDecoder/TX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc3sd1800a-fg676-4 TX.ngc TX.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc3sd1800a-fg676-4 TX.ngc TX.ngd  
+map -intstyle ise -p xc3sd1800a-fg676-4 -cm area -ir off -pr off -c 100 -o TX_map.ncd TX.ngd TX.pcf 
+par -w -intstyle ise -ol high -t 1 TX_map.ncd TX.ncd TX.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TX.twx TX.ncd -o TX.twr TX.pcf -ucf top.ucf 
+bitgen -intstyle ise -f TX.ut TX.ncd 
+xst -intstyle ise -ifn "D:/Repos/FPGA/SerialDecoder/TX.xst" -ofn "D:/Repos/FPGA/SerialDecoder/TX.syr" 
+xst -intstyle ise -ifn "D:/Repos/FPGA/SerialDecoder/TX.xst" -ofn "D:/Repos/FPGA/SerialDecoder/TX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc3sd1800a-fg676-4 TX.ngc TX.ngd  
+map -intstyle ise -p xc3sd1800a-fg676-4 -cm area -ir off -pr off -c 100 -o TX_map.ncd TX.ngd TX.pcf 
+par -w -intstyle ise -ol high -t 1 TX_map.ncd TX.ncd TX.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TX.twx TX.ncd -o TX.twr TX.pcf -ucf top.ucf 
+bitgen -intstyle ise -f TX.ut TX.ncd 
+xst -intstyle ise -ifn "D:/Repos/FPGA/SerialDecoder/TX.xst" -ofn "D:/Repos/FPGA/SerialDecoder/TX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc3sd1800a-fg676-4 TX.ngc TX.ngd  
+map -intstyle ise -p xc3sd1800a-fg676-4 -cm area -ir off -pr off -c 100 -o TX_map.ncd TX.ngd TX.pcf 
+par -w -intstyle ise -ol high -t 1 TX_map.ncd TX.ncd TX.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TX.twx TX.ncd -o TX.twr TX.pcf -ucf top.ucf 
+bitgen -intstyle ise -f TX.ut TX.ncd 
+xst -intstyle ise -ifn "D:/Repos/FPGA/SerialDecoder/TX.xst" -ofn "D:/Repos/FPGA/SerialDecoder/TX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc3sd1800a-fg676-4 TX.ngc TX.ngd  
+map -intstyle ise -p xc3sd1800a-fg676-4 -cm area -ir off -pr off -c 100 -o TX_map.ncd TX.ngd TX.pcf 
+par -w -intstyle ise -ol high -t 1 TX_map.ncd TX.ncd TX.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TX.twx TX.ncd -o TX.twr TX.pcf -ucf top.ucf 
+bitgen -intstyle ise -f TX.ut TX.ncd 
+xst -intstyle ise -ifn "D:/Repos/FPGA/SerialDecoder/TX.xst" -ofn "D:/Repos/FPGA/SerialDecoder/TX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc3sd1800a-fg676-4 TX.ngc TX.ngd  
+map -intstyle ise -p xc3sd1800a-fg676-4 -cm area -ir off -pr off -c 100 -o TX_map.ncd TX.ngd TX.pcf 
+par -w -intstyle ise -ol high -t 1 TX_map.ncd TX.ncd TX.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TX.twx TX.ncd -o TX.twr TX.pcf -ucf top.ucf 
+bitgen -intstyle ise -f TX.ut TX.ncd 
+xst -intstyle ise -ifn "D:/Repos/FPGA/SerialDecoder/TX.xst" -ofn "D:/Repos/FPGA/SerialDecoder/TX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc3sd1800a-fg676-4 TX.ngc TX.ngd  
+map -intstyle ise -p xc3sd1800a-fg676-4 -cm area -ir off -pr off -c 100 -o TX_map.ncd TX.ngd TX.pcf 
+par -w -intstyle ise -ol high -t 1 TX_map.ncd TX.ncd TX.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TX.twx TX.ncd -o TX.twr TX.pcf -ucf top.ucf 
+bitgen -intstyle ise -f TX.ut TX.ncd 
+xst -intstyle ise -ifn "D:/Repos/FPGA/SerialDecoder/TX.xst" -ofn "D:/Repos/FPGA/SerialDecoder/TX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc3sd1800a-fg676-4 TX.ngc TX.ngd  
+map -intstyle ise -p xc3sd1800a-fg676-4 -cm area -ir off -pr off -c 100 -o TX_map.ncd TX.ngd TX.pcf 
+par -w -intstyle ise -ol high -t 1 TX_map.ncd TX.ncd TX.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TX.twx TX.ncd -o TX.twr TX.pcf -ucf top.ucf 
+bitgen -intstyle ise -f TX.ut TX.ncd 
+xst -intstyle ise -ifn "D:/Repos/FPGA/SerialDecoder/TX.xst" -ofn "D:/Repos/FPGA/SerialDecoder/TX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc3sd1800a-fg676-4 TX.ngc TX.ngd  
+map -intstyle ise -p xc3sd1800a-fg676-4 -cm area -ir off -pr off -c 100 -o TX_map.ncd TX.ngd TX.pcf 
+par -w -intstyle ise -ol high -t 1 TX_map.ncd TX.ncd TX.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TX.twx TX.ncd -o TX.twr TX.pcf -ucf top.ucf 
+bitgen -intstyle ise -f TX.ut TX.ncd 
+xst -intstyle ise -ifn "D:/Repos/FPGA/SerialDecoder/TX.xst" -ofn "D:/Repos/FPGA/SerialDecoder/TX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc3sd1800a-fg676-4 TX.ngc TX.ngd  
+map -intstyle ise -p xc3sd1800a-fg676-4 -cm area -ir off -pr off -c 100 -o TX_map.ncd TX.ngd TX.pcf 
+par -w -intstyle ise -ol high -t 1 TX_map.ncd TX.ncd TX.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TX.twx TX.ncd -o TX.twr TX.pcf -ucf top.ucf 
+bitgen -intstyle ise -f TX.ut TX.ncd 
+xst -intstyle ise -ifn "D:/Repos/FPGA/SerialDecoder/TX.xst" -ofn "D:/Repos/FPGA/SerialDecoder/TX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc3sd1800a-fg676-4 TX.ngc TX.ngd  
+map -intstyle ise -p xc3sd1800a-fg676-4 -cm area -ir off -pr off -c 100 -o TX_map.ncd TX.ngd TX.pcf 
+par -w -intstyle ise -ol high -t 1 TX_map.ncd TX.ncd TX.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TX.twx TX.ncd -o TX.twr TX.pcf -ucf top.ucf 
+bitgen -intstyle ise -f TX.ut TX.ncd 
+xst -intstyle ise -ifn "D:/Repos/FPGA/SerialDecoder/TX.xst" -ofn "D:/Repos/FPGA/SerialDecoder/TX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc3sd1800a-fg676-4 TX.ngc TX.ngd  
+map -intstyle ise -p xc3sd1800a-fg676-4 -cm area -ir off -pr off -c 100 -o TX_map.ncd TX.ngd TX.pcf 
+par -w -intstyle ise -ol high -t 1 TX_map.ncd TX.ncd TX.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TX.twx TX.ncd -o TX.twr TX.pcf -ucf top.ucf 
+bitgen -intstyle ise -f TX.ut TX.ncd 
+xst -intstyle ise -ifn "D:/Repos/FPGA/SerialDecoder/TX.xst" -ofn "D:/Repos/FPGA/SerialDecoder/TX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc3sd1800a-fg676-4 TX.ngc TX.ngd  
+map -intstyle ise -p xc3sd1800a-fg676-4 -cm area -ir off -pr off -c 100 -o TX_map.ncd TX.ngd TX.pcf 
+par -w -intstyle ise -ol high -t 1 TX_map.ncd TX.ncd TX.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TX.twx TX.ncd -o TX.twr TX.pcf -ucf top.ucf 
+bitgen -intstyle ise -f TX.ut TX.ncd 
+xst -intstyle ise -ifn "D:/Repos/FPGA/SerialDecoder/TX.xst" -ofn "D:/Repos/FPGA/SerialDecoder/TX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc3sd1800a-fg676-4 TX.ngc TX.ngd  
+map -intstyle ise -p xc3sd1800a-fg676-4 -cm area -ir off -pr off -c 100 -o TX_map.ncd TX.ngd TX.pcf 
+par -w -intstyle ise -ol high -t 1 TX_map.ncd TX.ncd TX.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TX.twx TX.ncd -o TX.twr TX.pcf -ucf top.ucf 
+bitgen -intstyle ise -f TX.ut TX.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc3sd1800a-fg676-4 TX.ngc TX.ngd  
+map -intstyle ise -p xc3sd1800a-fg676-4 -cm area -ir off -pr off -c 100 -o TX_map.ncd TX.ngd TX.pcf 
+par -w -intstyle ise -ol high -t 1 TX_map.ncd TX.ncd TX.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TX.twx TX.ncd -o TX.twr TX.pcf -ucf top.ucf 
+bitgen -intstyle ise -f TX.ut TX.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc3sd1800a-fg676-4 TX.ngc TX.ngd  
+map -intstyle ise -p xc3sd1800a-fg676-4 -cm area -ir off -pr off -c 100 -o TX_map.ncd TX.ngd TX.pcf 
+par -w -intstyle ise -ol high -t 1 TX_map.ncd TX.ncd TX.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TX.twx TX.ncd -o TX.twr TX.pcf -ucf top.ucf 
+bitgen -intstyle ise -f TX.ut TX.ncd 
+xst -intstyle ise -ifn "D:/Repos/FPGA/SerialDecoder/TX.xst" -ofn "D:/Repos/FPGA/SerialDecoder/TX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc3sd1800a-fg676-4 TX.ngc TX.ngd  
+map -intstyle ise -p xc3sd1800a-fg676-4 -cm area -ir off -pr off -c 100 -o TX_map.ncd TX.ngd TX.pcf 
+par -w -intstyle ise -ol high -t 1 TX_map.ncd TX.ncd TX.pcf 
+bitgen -intstyle ise -f TX.ut TX.ncd 
+xst -intstyle ise -ifn "D:/Repos/FPGA/SerialDecoder/TX.xst" -ofn "D:/Repos/FPGA/SerialDecoder/TX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc3sd1800a-fg676-4 TX.ngc TX.ngd  
+map -intstyle ise -p xc3sd1800a-fg676-4 -cm area -ir off -pr off -c 100 -o TX_map.ncd TX.ngd TX.pcf 
+par -w -intstyle ise -ol high -t 1 TX_map.ncd TX.ncd TX.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TX.twx TX.ncd -o TX.twr TX.pcf -ucf top.ucf 
+bitgen -intstyle ise -f TX.ut TX.ncd 
+xst -intstyle ise -ifn "D:/Repos/FPGA/SerialDecoder/TX.xst" -ofn "D:/Repos/FPGA/SerialDecoder/TX.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc3sd1800a-fg676-4 TX.ngc TX.ngd  
+map -intstyle ise -p xc3sd1800a-fg676-4 -cm area -ir off -pr off -c 100 -o TX_map.ncd TX.ngd TX.pcf 
+par -w -intstyle ise -ol high -t 1 TX_map.ncd TX.ncd TX.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TX.twx TX.ncd -o TX.twr TX.pcf -ucf top.ucf 
+bitgen -intstyle ise -f TX.ut TX.ncd 
+xst -intstyle ise -ifn "D:/Repos/FPGA/SerialDecoder/TX.xst" -ofn "D:/Repos/FPGA/SerialDecoder/TX.syr" 

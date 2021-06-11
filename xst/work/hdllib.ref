@@ -1,0 +1,6 @@
+AR tx rtl D:/Repos/FPGA/SerialDecoder/TX.vhd sub00/vhpl03 1622741564
+AR uart_tx rtl D:/Repos/FPGA/SerialDecoder/TX.vhd sub00/vhpl05 1622743741
+EN top NULL D:/Repos/FPGA/SerialDecoder/top.vhd sub00/vhpl00 1622644185
+EN tx NULL D:/Repos/FPGA/SerialDecoder/TX.vhd sub00/vhpl02 1622741563
+AR top behavioral D:/Repos/FPGA/SerialDecoder/top.vhd sub00/vhpl01 1622644186
+EN uart_tx NULL D:/Repos/FPGA/SerialDecoder/TX.vhd sub00/vhpl04 1622743740

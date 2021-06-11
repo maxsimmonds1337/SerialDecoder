@@ -1,0 +1,33 @@
+NET "i_clk" LOC = P26;
+NET "i_clk" IOSTANDARD = LVCMOS33;
+
+NET "i_TX_DV" LOC = J17;
+NET "i_TX_DV" IOSTANDARD = LVCMOS33;
+
+
+NET "o_TX" LOC = P22;
+NET "o_TX" IOSTANDARD = LVCMOS33;
+
+NET "i_data_byte[0]" LOC = A7;
+NET "i_data_byte[0]" IOSTANDARD = LVCMOS33;
+
+NET "i_data_byte[1]" LOC = G16;
+NET "i_data_byte[1]" IOSTANDARD = LVCMOS33;
+
+NET "i_data_byte[2]" LOC = E9;
+NET "i_data_byte[2]" IOSTANDARD = LVCMOS33;
+
+NET "i_data_byte[3]" LOC = D15;
+NET "i_data_byte[3]" IOSTANDARD = LVCMOS33;
+
+NET "i_data_byte[4]" LOC = D19;
+NET "i_data_byte[4]" IOSTANDARD = LVCMOS33;
+
+NET "i_data_byte[5]" LOC = B24;
+NET "i_data_byte[5]" IOSTANDARD = LVCMOS33;
+
+NET "i_data_byte[6]" LOC = A5;
+NET "i_data_byte[6]" IOSTANDARD = LVCMOS33;
+
+NET "i_data_byte[7]" LOC = A23;
+NET "i_data_byte[7]" IOSTANDARD = LVCMOS33;

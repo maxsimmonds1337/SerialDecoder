@@ -1,0 +1,18 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Jun 03 18:33:06 2021
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "o_TX" LOCATE = SITE "P22" LEVEL 1;
+COMP "i_clk" LOCATE = SITE "P26" LEVEL 1;
+COMP "i_data_byte<0>" LOCATE = SITE "A7" LEVEL 1;
+COMP "i_data_byte<1>" LOCATE = SITE "G16" LEVEL 1;
+COMP "i_data_byte<2>" LOCATE = SITE "E9" LEVEL 1;
+COMP "i_data_byte<3>" LOCATE = SITE "D15" LEVEL 1;
+COMP "i_data_byte<4>" LOCATE = SITE "D19" LEVEL 1;
+COMP "i_data_byte<5>" LOCATE = SITE "B24" LEVEL 1;
+COMP "i_data_byte<6>" LOCATE = SITE "A5" LEVEL 1;
+COMP "i_data_byte<7>" LOCATE = SITE "A23" LEVEL 1;
+COMP "i_TX_DV" LOCATE = SITE "J17" LEVEL 1;
+SCHEMATIC END;
+

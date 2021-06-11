@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Tue Jun 01 20:13:10 2021
+# Process ID: 5584
+# Log file: D:/Repos/FPGA/SerialDecoder/planAhead_run_1/planAhead.log
+# Journal file: D:/Repos/FPGA/SerialDecoder/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/Repos/FPGA/SerialDecoder/pa.fromNetlist.tcl
